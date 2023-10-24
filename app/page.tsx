@@ -8,7 +8,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Jhonatan, Robert and Stiven</h1>
+        <h1>Jhonatan, Robert 2021-0956 and Stiven</h1>
         <p>2023</p>
       </main>
     </div>
