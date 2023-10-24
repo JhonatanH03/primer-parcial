@@ -9,7 +9,7 @@ export default function Home() {
 
       <main>
         <h1>Jhonatan, Robert 2021-0956 and Stiven</h1>
-        <p>2023</p>
+        <p>2023 jj</p>
       </main>
     </div>
   )
