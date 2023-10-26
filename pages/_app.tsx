@@ -6,7 +6,7 @@ import '../styles/globals.css'
 function MyApp ({Component : App, pageProps: {session, ...pageProps}}: AppProps) {
     return(
         <SessionProvider session={session}>
-            <div className= 'flex flex-col bg-yellow-400 min-h-screen aling-center'>
+            <div className= 'flex flex-col bg-yellow-400 min-h-screen align-center'>
                 <App {...pageProps}/>
             </div>
         </SessionProvider>
