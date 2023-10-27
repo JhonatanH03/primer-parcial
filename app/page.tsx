@@ -2,7 +2,7 @@ import 'tailwindcss/tailwind.css';
 import type { NextPage } from 'next'
 import Head from "next/head"
 import Link from 'next/link';
-import { Header } from '@/components/Header';
+import { Header } from '@/components/organisms/Header';
 
 const SectionTitle = ({children}:{children: string}) => <h2 className='text-xl font-bold '>{children}</h2>
 
