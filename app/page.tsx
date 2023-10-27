@@ -4,11 +4,24 @@ import Head from "next/head"
 import Link from 'next/link';
 import { Header } from '@/components/organisms/Header';
 
-const SectionTitle = ({children}:{children: string}) => <h2 className='text-xl font-bold '>{children}</h2>
+interface SectionTitleProps {
+    children: string
+}
 
-const Box = ({ title }: { title: string }) => <div>
+const SectionTitle = ({children}:SectionTitleProps) => 
+    <h2 className='text-xl font-bold '>{children}</h2>
+
+interface BoxProps {
+    image: string
+    title: string
+}
+
+const Box = ({image, title }: BoxProps) => <div>
     <div className='rounded flex flex-col items-center justify-center border border-gray-100 py-10 shadow-lg'>
-      <div className='p-4'>{title}</div>
+        <img alt={title} src={image} />
+        <div className='font-bold mt-4 text-bold'>
+            {title}
+      </div>
     </div>
 </div>
 
@@ -36,19 +49,17 @@ const Home: NextPage = () => {
               </p>
             </div>
 
-            <div className='sticky top-0 bg-white max-w-3xl mt-20 p-12 mx-auto rounded-lg text-black'>
+            <div className='sticky top-0 bg-white max-w-3xl mt-20 p-12 mx-auto rounded-lg text-black shadow-yellow-950'>
                 <SectionTitle>Mejor biblioteca UI</SectionTitle>
                 <ul>
-                    <Box title="React" />
+                    <Box image="../public/icons/react.svg" title="React" />
                     <Box title="Vue.js" />
                     <Box title="Angular" />
                     <Box title="Svelte" />
                     <Box title="Lit" />
                     <Box title="Ember" />
                     <Box title="Alpine.js" />
-                    <Box title="Preact" />
-                    <Box title="Stimulus" />
-                    <Box title="Solid" />
+
                 </ul>
 
                 <SectionTitle>Mejor framework Backend</SectionTitle>
