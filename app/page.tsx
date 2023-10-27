@@ -4,10 +4,12 @@ import Head from "next/head"
 import Link from 'next/link';
 const Home: NextPage = () => {
 
+const SectionTitle = ({children}:{children: string}) => <h2 className='text-xl font-bold '>{children}</h2>
+
     return (
     <>
         <Head>
-            <title> vota. dev - Vota los mejores del año en el mundo del desarrollo web</title>
+            <title>Vota los mejores del año en el mundo del desarrollo web</title>
         </Head>
         <header className='flex items-center w-full justify-between max-w-4xl mx-auto'>
             <h1 className='font-bold text-xl'> 🗳️ vota.dev</h1>
@@ -18,14 +20,14 @@ const Home: NextPage = () => {
             <h1 className='text-black text-9xl text-center font-extrabold'>
                 Vota por la mejor tecnología del desarrollo web.
             </h1>
-            <div className='flex flex-col items-center mt-8 max-w-lg text-center'>
+            <div className='flex flex-col items-center mt-8 max-w-7xl text-center mx-auto'>
               <p className='text-black opacity-90 text-2xl'>
                 Decide qué stack, tecnologías y frameworks han sido los mejores del año. ¡Cada voto cuenta!
               </p>
             </div>
 
-            <div className='bg-black max-w-3xl mt-20 h-screen p-12 mx-auto rounded-lg text-white'>
-                <h2>Mejor biblioteca UI</h2>
+            <div className='sticky top-0 bg-black max-w-3xl mt-20 p-12 mx-auto rounded-lg text-white'>
+                <SectionTitle>Mejor biblioteca UI</SectionTitle>
                 <ul>
                     <li>React</li>
                     <li>Vue.js</li>
@@ -40,7 +42,7 @@ const Home: NextPage = () => {
                     
                 </ul>
 
-                <h2>Mejor framework Backend</h2>
+                <SectionTitle>Mejor framework Backend</SectionTitle>
                 <ul>
                     <li>Nest.js</li>
                     <li>Express</li>
@@ -48,7 +50,7 @@ const Home: NextPage = () => {
                     <li>Hapi</li>
                 </ul>
 
-                <h2>Mejor framework FullStack</h2>
+                <SectionTitle>Mejor framework FullStack</SectionTitle>
                 <ul>
                     <li>Next.js</li>
                     <li>Nuxt</li>
@@ -58,7 +60,7 @@ const Home: NextPage = () => {
                     
                 </ul>
 
-                <h2>Mejores empaquetadores de código</h2>
+                <SectionTitle>Mejores empaquetadores de código</SectionTitle>
                 <ul>
                     <li>Webpack</li>
                     <li>Rollup</li>
@@ -68,7 +70,7 @@ const Home: NextPage = () => {
                     
                 </ul>
 
-                <h2>Mejor librería CSS en JS</h2>
+                <SectionTitle>Mejor librería CSS en JS</SectionTitle>
                 <ul>
                     <li>Stitches</li>
                     <li>Styled Components</li>
@@ -76,14 +78,14 @@ const Home: NextPage = () => {
                     
                 </ul>
 
-                <h2>Mejor framework CSS</h2>
+                <SectionTitle>Mejor framework CSS</SectionTitle>
                 <ul>
                     <li>Tailwind</li>
                     
                 
                 </ul>
 
-                <h2>Mejor herramienta de testing</h2>
+                <SectionTitle>Mejor herramienta de testing</SectionTitle>
                 <ul>
                     <li>Jest</li>
                     <li>Testing Library</li>
@@ -92,7 +94,7 @@ const Home: NextPage = () => {
                 
                 </ul>
 
-                <h2>Mejor test E2E</h2>
+                <SectionTitle>Mejor test E2E</SectionTitle>
                 <ul>
                     <li>Cypress</li>
                     <li>Playwright</li>
@@ -101,7 +103,7 @@ const Home: NextPage = () => {
                 
                 </ul>
 
-                <h2>Mejor BaaS (Backend as a service)</h2>
+                <SectionTitle>Mejor BaaS (Backend as a service)</SectionTitle>
                 <ul>
                     <li>Firebase</li>
                     <li>Supabase</li>
@@ -111,7 +113,7 @@ const Home: NextPage = () => {
                 
                 </ul>
 
-                <h2>Mejor catalogo de componentes</h2>
+                <SectionTitle>Mejor catalogo de componentes</SectionTitle>
                 <ul>
                     <li>Chakra UI</li>
                     <li>Material UI</li>
