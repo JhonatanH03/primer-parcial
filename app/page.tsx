@@ -49,88 +49,88 @@ const Home: NextPage = () => {
               </p>
             </div>
 
-            <div className='sticky top-0 bg-white max-w-3xl mt-20 p-12 mx-auto rounded-lg text-black shadow-yellow-950'>
+            <div className='sticky bg-white max-w-3xl mt-20 p-12 mx-auto rounded-lg text-black shadow-yellow-950'>
                 <SectionTitle>Mejor biblioteca UI</SectionTitle>
                 <ul>
-                    <Box image="../public/icons/react.svg" title="React" />
-                    <Box title="Vue.js" />
-                    <Box title="Angular" />
-                    <Box title="Svelte" />
-                    <Box title="Lit" />
-                    <Box title="Ember" />
-                    <Box title="Alpine.js" />
+                    <Box image="/icons/react.svg" title="React" />
+                    <Box image="/icons/vue.svg" title="Vue.js" />
+                    <Box image="/icons/angular.svg"title="Angular" />
+                    <Box image="/icons/svelte.svg"title="Svelte" />
+                    <Box image="/icons/lit.svg"title="Lit" />
+                    <Box image="/icons/ember.svg"title="Ember" />
+                    <Box image="/icons/alpine.svg"title="Alpine.js" />
 
                 </ul>
 
                 <SectionTitle>Mejor framework Backend</SectionTitle>
                 <ul>
-                    <Box title="Nest.js" />
-                    <Box title="Express" />
-                    <Box title="Fastify" />
-                    <Box title="Hapi" />
+                    <Box image="/icons/" title="Nest.js" />
+                    <Box image="/icons/" title="Express" />
+                    <Box image="/icons/" title="Fastify" />
+                    <Box image="/icons/" title="Hapi" />
                 </ul>
 
                 <SectionTitle>Mejor framework FullStack</SectionTitle>
                 <ul>
-                <Box title="Next.js" />
-                    <Box title="Nuxt" />
-                    <Box title="SvelteKit" />
-                    <Box title="Remix" />
-                    <Box title="BlitzJS" />
+                    <Box image="/icons/" title="Next.js" />
+                    <Box image="/icons/" title="Nuxt" />
+                    <Box image="/icons/" title="SvelteKit" />
+                    <Box image="/icons/" title="Remix" />
+                    <Box image="/icons/" title="BlitzJS" />
                 </ul>
 
                 <SectionTitle>Mejores empaquetadores de código</SectionTitle>
                 <ul>
-                    <Box title="Webpack" />
-                    <Box title="Rollup" />
-                    <Box title="Parcel" />
-                    <Box title="Esbuild" />
-                    <Box title="Vite" />
+                    <Box image="/icons/" title="Webpack" />
+                    <Box image="/icons/" title="Rollup" />
+                    <Box image="/icons/" title="Parcel" />
+                    <Box image="/icons/" title="Esbuild" />
+                    <Box image="/icons/" title="Vite" />
                 </ul>
 
                 <SectionTitle>Mejor librería CSS en JS</SectionTitle>
                 <ul>
-                    <Box title="Stitches" />
-                    <Box title="Styled Components" />
-                    <Box title="Emotion" />
+                    <Box image="/icons/" title="Stitches" />
+                    <Box image="/icons/" title="Styled Components" />
+                    <Box image="/icons/" title="Emotion" />
                 </ul>
 
                 <SectionTitle>Mejor framework CSS</SectionTitle>
                 <ul>
-                    <Box title="Tailwind" />
+                    <Box image="/icons/" title="Tailwind" />
                 </ul>
 
                 <SectionTitle>Mejor herramienta de testing</SectionTitle>
                 <ul>
-                    <Box title="Jest" />
-                    <Box title="Testing Library" />
-                    <Box title="Vitest" />
+                    <Box image="/icons/" title="Jest" />
+                    <Box image="/icons/" title="Testing Library" />
+                    <Box image="/icons/" title="Vitest" />
                 </ul>
 
                 <SectionTitle>Mejor test E2E</SectionTitle>
                 <ul>
-                    <Box title="Cypress" />
-                    <Box title="Playwright" />
-                    <Box title="Puppeteer" />
+                    <Box image="/icons/" title="Cypress" />
+                    <Box image="/icons/" title="Playwright" />
+                    <Box image="/icons/" title="Puppeteer" />
                 </ul>
 
                 <SectionTitle>Mejor BaaS (Backend as a service)</SectionTitle>
                 <ul>
-                    <Box title="Firebase" />
-                    <Box title="Supabase" />
-                    <Box title="Airtable" />
-                    <Box title="Amplify" />
-                    <Box title="Mongo Stitch" />
+                    <Box image="/icons/" title="Firebase" />
+                    <Box image="/icons/" title="Supabase" />
+                    <Box image="/icons/" title="Airtable" />
+                    <Box image="/icons/" title="Amplify" />
+                    <Box image="/icons/" title="Mongo Stitch" />
                 </ul>
 
                 <SectionTitle>Mejor catálogo de componentes</SectionTitle>
                 <ul>
-                    <Box title="Chakra UI" />
-                    <Box title="Material UI" />
-                    <Box title="NextUI" />
-                    <Box title="Antd" />
-                    <Box title="DaisyUI" />
-                    <Box title="React Semantic UI" />
+                    <Box image="/icons/" title="Chakra UI" />
+                    <Box image="/icons/" title="Material UI" />
+                    <Box image="/icons/" title="NextUI" />
+                    <Box image="/icons/" title="Antd" />
+                    <Box image="/icons/" title="DaisyUI" />
+                    <Box image="/icons/" title="React Semantic UI" />
                 </ul>
 
             </div>
