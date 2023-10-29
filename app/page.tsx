@@ -72,7 +72,7 @@ const Home: NextPage = () => {
 
                 <SectionTitle>Mejor framework FullStack</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Next.js" />
+                    <Box image="/icons/next.svg" title="Next.js" />
                     <Box image="/icons/" title="Nuxt" />
                     <Box image="/icons/" title="SvelteKit" />
                     <Box image="/icons/" title="Remix" />
@@ -86,13 +86,6 @@ const Home: NextPage = () => {
                     <Box image="/icons/" title="Parcel" />
                     <Box image="/icons/" title="Esbuild" />
                     <Box image="/icons/" title="Vite" />
-                </ul>
-
-                <SectionTitle>Mejor librería CSS en JS</SectionTitle>
-                <ul>
-                    <Box image="/icons/" title="Stitches" />
-                    <Box image="/icons/" title="Styled Components" />
-                    <Box image="/icons/" title="Emotion" />
                 </ul>
 
                 <SectionTitle>Mejor framework CSS</SectionTitle>
@@ -120,15 +113,11 @@ const Home: NextPage = () => {
                     <Box image="/icons/" title="Supabase" />
                     <Box image="/icons/" title="Airtable" />
                     <Box image="/icons/" title="Amplify" />
-                    <Box image="/icons/" title="Mongo Stitch" />
                 </ul>
 
                 <SectionTitle>Mejor catálogo de componentes</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Chakra UI" />
                     <Box image="/icons/" title="Material UI" />
-                    <Box image="/icons/" title="NextUI" />
-                    <Box image="/icons/" title="Antd" />
                     <Box image="/icons/" title="DaisyUI" />
                     <Box image="/icons/" title="React Semantic UI" />
                 </ul>
