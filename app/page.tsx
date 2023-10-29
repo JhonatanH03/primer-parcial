@@ -64,62 +64,62 @@ const Home: NextPage = () => {
 
                 <SectionTitle>Mejor framework Backend</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Nest.js" />
-                    <Box image="/icons/" title="Express" />
-                    <Box image="/icons/" title="Fastify" />
-                    <Box image="/icons/" title="Hapi" />
+                    <Box image="/icons/nestjs.svg" title="Nest.js" />
+                    <Box image="/icons/express.svg" title="Express" />
+                    <Box image="/icons/fastify.svg" title="Fastify" />
+                    <Box image="/icons/hapi.svg" title="Hapi" />
                 </ul>
 
                 <SectionTitle>Mejor framework FullStack</SectionTitle>
                 <ul>
                     <Box image="/icons/next.svg" title="Next.js" />
-                    <Box image="/icons/" title="Nuxt" />
-                    <Box image="/icons/" title="SvelteKit" />
-                    <Box image="/icons/" title="Remix" />
-                    <Box image="/icons/" title="BlitzJS" />
+                    <Box image="/icons/nuxt.svg" title="Nuxt" />
+                    <Box image="/icons/sveltekit.svg" title="SvelteKit" />
+                    <Box image="/icons/remix.svg" title="Remix" />
+                    <Box image="/icons/blitzjs.svg" title="BlitzJS" />
                 </ul>
 
                 <SectionTitle>Mejores empaquetadores de código</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Webpack" />
-                    <Box image="/icons/" title="Rollup" />
-                    <Box image="/icons/" title="Parcel" />
-                    <Box image="/icons/" title="Esbuild" />
-                    <Box image="/icons/" title="Vite" />
+                    <Box image="/icons/webpack.svg" title="Webpack" />
+                    <Box image="/icons/rollupjs.svg" title="Rollup" />
+                    <Box image="/icons/parcel.svg" title="Parcel" />
+                    <Box image="/icons/esbuild.svg" title="Esbuild" />
+                    <Box image="/icons/vitejs.svg" title="Vite" />
                 </ul>
 
                 <SectionTitle>Mejor framework CSS</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Tailwind" />
+                    <Box image="/icons/tailwindcss.svg" title="Tailwind" />
                 </ul>
 
                 <SectionTitle>Mejor herramienta de testing</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Jest" />
-                    <Box image="/icons/" title="Testing Library" />
-                    <Box image="/icons/" title="Vitest" />
+                    <Box image="/icons/jest.svg" title="Jest" />
+                    <Box image="/icons/testing-library.svg" title="Testing Library" />
+                    <Box image="/icons/vitest.svg" title="Vitest" />
                 </ul>
 
                 <SectionTitle>Mejor test E2E</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Cypress" />
-                    <Box image="/icons/" title="Playwright" />
-                    <Box image="/icons/" title="Puppeteer" />
+                    <Box image="/icons/cypress.svg" title="Cypress" />
+                    <Box image="/icons/playwright.svg" title="Playwright" />
+                    <Box image="/icons/puppeteer.svg" title="Puppeteer" />
                 </ul>
 
                 <SectionTitle>Mejor BaaS (Backend as a service)</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Firebase" />
-                    <Box image="/icons/" title="Supabase" />
-                    <Box image="/icons/" title="Airtable" />
-                    <Box image="/icons/" title="Amplify" />
+                    <Box image="/icons/firebase.svg" title="Firebase" />
+                    <Box image="/icons/supabase.svg" title="Supabase" />
+                    <Box image="/icons/airtable.svg" title="Airtable" />
+                    <Box image="/icons/aws-amplify.svg" title="Amplify" />
                 </ul>
 
                 <SectionTitle>Mejor catálogo de componentes</SectionTitle>
                 <ul>
-                    <Box image="/icons/" title="Material UI" />
-                    <Box image="/icons/" title="DaisyUI" />
-                    <Box image="/icons/" title="React Semantic UI" />
+                    <Box image="/icons/material-ui.svg" title="Material UI" />
+                    <Box image="/icons/daisyUI.svg" title="DaisyUI" />
+                    <Box image="/icons/semantic-ui.svg" title="React Semantic UI" />
                 </ul>
 
             </div>
