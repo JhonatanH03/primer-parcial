@@ -7,6 +7,7 @@ import BoxAtom from '../components/atoms/BoxAtom'
 import TitleAtom from '../components/atoms/TitleAtom';
 import GitHubButton from '../components/atoms/GitHubButton';
 import MoleculeNavBar from '../components/molecules/MoleculeNavBar';
+import FooterOrganism from '../components/organisms/FooterOrganism';
 
 interface SectionTitleProps {
     children: string
@@ -106,6 +107,7 @@ const SectionTitle = ({children}:SectionTitleProps) =>
                     <BoxAtom image="/icons/daisyUI.svg" title="DaisyUI" />
                     <BoxAtom image="/icons/semantic-ui.svg" title="React Semantic UI" />
                 </ul>
+                <FooterOrganism />
                 <GitHubButton />
             </div>
         </section>
