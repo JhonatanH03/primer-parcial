@@ -2,7 +2,7 @@
 
 Page layout
 
-Creation of atoms
+Creation of atoms: BoxAtom.tsx - GitHubButton.tsx - TitleAtom.tsx
 
 # Stiven Martinez 20220275
 
