@@ -8,6 +8,7 @@ import TitleAtom from '../components/atoms/TitleAtom';
 
 
 
+
 interface SectionTitleProps {
     children: string
 }
