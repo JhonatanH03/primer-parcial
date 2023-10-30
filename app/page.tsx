@@ -7,7 +7,6 @@ import BoxAtom from '../components/atoms/BoxAtom'
 import TitleAtom from '../components/atoms/TitleAtom';
 import GitHubButton from '../components/atoms/GitHubButton';
 
-
 interface SectionTitleProps {
     children: string
 }
@@ -15,14 +14,15 @@ interface SectionTitleProps {
 const SectionTitle = ({children}:SectionTitleProps) => 
     <h2 className='text-4xl mb-6 font-bold '>{children}</h2>
 
+    const Page: NextPage = () => {
+ 
 
-const Page: NextPage = () => {
-    
     return (
     <>
         <Head>
             <TitleAtom text="Vota.dev" />
         </Head>
+        
         <header className='flex items-center w-full justify-between max-w-4xl mx-auto'>
             <h1 className='font-bold text-xl'> 🗳️ vota.dev</h1>
             <div>
