@@ -5,7 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 import BoxAtom from '../components/atoms/BoxAtom'
 import TitleAtom from '../components/atoms/TitleAtom';
-import GitHubButton from '@/components/atoms/GitHubButton';
+import GitHubButton from '../components/atoms/GitHubButton';
 
 
 interface SectionTitleProps {
