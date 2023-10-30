@@ -2,10 +2,10 @@ import 'tailwindcss/tailwind.css';
 import type { NextPage } from 'next'
 import Head from "next/head"
 import Link from 'next/link';
-import { Header } from '@/components/organisms/Header';
 import React from 'react';
 import BoxAtom from '../components/atoms/BoxAtom'
 import TitleAtom from '../components/atoms/TitleAtom';
+import GitHubButton from '@/components/atoms/GitHubButton';
 
 
 interface SectionTitleProps {
@@ -16,15 +16,12 @@ const SectionTitle = ({children}:SectionTitleProps) =>
     <h2 className='text-4xl mb-6 font-bold '>{children}</h2>
 
 
-
-
 const Page: NextPage = () => {
-
-
+    
     return (
     <>
         <Head>
-            <TitleAtom text="Vota.dev!" />
+            <TitleAtom text="Vota.dev" />
         </Head>
         <header className='flex items-center w-full justify-between max-w-4xl mx-auto'>
             <h1 className='font-bold text-xl'> 🗳️ vota.dev</h1>
@@ -35,6 +32,7 @@ const Page: NextPage = () => {
             <h1 className='text-black text-9xl text-center font-extrabold'>
                 Vota por la mejor tecnología del desarrollo web.
             </h1>
+            
             <div className='flex flex-col items-center mt-8 max-w-7xl text-center mx-auto'>
               <p className='text-black opacity-90 text-2xl'>
                 Decide qué stack, tecnologías y frameworks han sido los mejores del año. ¡Cada voto cuenta!
@@ -87,7 +85,7 @@ const Page: NextPage = () => {
                 </ul>
 
                 <SectionTitle>Mejor test E2E</SectionTitle>
-                                <ul className='grid grid-cols-4 gap-4 mb-8'>
+                <ul className='grid grid-cols-4 gap-4 mb-8'>
                     <BoxAtom image="/icons/cypress.svg" title="Cypress" />
                     <BoxAtom image="/icons/playwright.svg" title="Playwright" />
 
@@ -107,7 +105,7 @@ const Page: NextPage = () => {
                     <BoxAtom image="/icons/daisyUI.svg" title="DaisyUI" />
                     <BoxAtom image="/icons/semantic-ui.svg" title="React Semantic UI" />
                 </ul>
-
+                <GitHubButton />
             </div>
         </section>
     </>
