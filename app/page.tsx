@@ -4,6 +4,8 @@ import Head from "next/head"
 import Link from 'next/link';
 import { Header } from '@/components/organisms/Header';
 import React from 'react';
+import TitleAtom from '../components/atoms/TitleAtom';
+
 
 
 interface SectionTitleProps {
@@ -31,14 +33,14 @@ const Box = ({image, title }: BoxProps) => <div>
     </div>
 </div>
 
-const Home: NextPage = () => {
+const Page: NextPage = () => {
     
 
 
     return (
     <>
         <Head>
-            <title>Vota los mejores del año en el mundo del desarrollo web</title>
+            <TitleAtom text="Vota.dev!" />
         </Head>
         <header className='flex items-center w-full justify-between max-w-4xl mx-auto'>
             <h1 className='font-bold text-xl'> 🗳️ vota.dev</h1>
@@ -52,6 +54,7 @@ const Home: NextPage = () => {
             <div className='flex flex-col items-center mt-8 max-w-7xl text-center mx-auto'>
               <p className='text-black opacity-90 text-2xl'>
                 Decide qué stack, tecnologías y frameworks han sido los mejores del año. ¡Cada voto cuenta!
+                
               </p>
             </div>
 
@@ -127,4 +130,4 @@ const Home: NextPage = () => {
     )
 }
 
-export default Home
+export default Page
