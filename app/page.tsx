@@ -6,6 +6,7 @@ import React from 'react';
 import BoxAtom from '../components/atoms/BoxAtom'
 import TitleAtom from '../components/atoms/TitleAtom';
 import GitHubButton from '../components/atoms/GitHubButton';
+import MoleculeNavBar from '../components/molecules/MoleculeNavBar';
 
 interface SectionTitleProps {
     children: string
@@ -22,7 +23,7 @@ const SectionTitle = ({children}:SectionTitleProps) =>
         <Head>
             <TitleAtom text="Vota.dev" />
         </Head>
-        
+        <MoleculeNavBar />
         <header className='flex items-center w-full justify-between max-w-4xl mx-auto'>
             <h1 className='font-bold text-xl'> 🗳️ vota.dev</h1>
             <div>
