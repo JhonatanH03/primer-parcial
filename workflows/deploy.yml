@@ -1,0 +1,33 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # O la rama que prefieras
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Install dependencies
+      run: npm install
+
+    - name: Build
+      run: npm run build  # Asegúrate de que este comando sea el correcto para tu proyecto
+
+    - name: Deploy to GitHub Pages
+      run: |
+        git config --global user.email "you@example.com"
+        git config --global user.name "Your Name"
+        git checkout --orphan gh-pages
+        git --set-upstream-to=origin/main gh-pages
+        rm -rf ./*
+        mv out/* .
+        git add .
+        git commit -m "Deploy to GitHub Pages"
+        git push origin gh-pages --force
+
