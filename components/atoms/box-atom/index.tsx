@@ -15,5 +15,5 @@ const BoxAtom: React.FC<BoxProps> = ({ image, title }) => {
     </div>
   );
 };
-//
+
 export default BoxAtom;
