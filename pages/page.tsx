@@ -9,6 +9,9 @@ import GitHubButton from '../components/atoms/GitHubButton';
 import MoleculeNavBar from '../components/molecules/MoleculeNavBar';
 import FooterOrganism from '../components/organisms/FooterOrganism';
 
+
+const fetch = require('node-fetch');
+
 interface SectionTitleProps {
     children: string
 }
